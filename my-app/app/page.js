@@ -1,12 +1,15 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <>
       <nav className="bg-gray-800 text-white p-4">
         <ul className="flex justify-center space-x-6">
-          <li><a href="#" className="hover:underline">Home</a></li>
-          <li><a href="#" className="hover:underline">Blog</a></li>
-          <li><a href="#" className="hover:underline">About</a></li>
-          <li><a href="#" className="hover:underline">Contact</a></li>
+        
+        <Link href="#" className="hover:underline"><li>Home</li></Link>
+        <Link href="#" className="hover:underline"><li>Blog</li></Link>
+        <Link href="/About" className="hover:underline"><li>About</li></Link>
+        <Link href="#" className="hover:underline"><li>Contact</li></Link>
         </ul>
       </nav>
 
