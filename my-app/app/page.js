@@ -5,10 +5,6 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <>
-
-
-
-
       <nav className="bg-gray-800 text-white p-4">
         <ul className="flex justify-center space-x-6">
         
